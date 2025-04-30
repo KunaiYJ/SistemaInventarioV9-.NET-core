@@ -4,14 +4,173 @@
     "C:\\Users\\KunaiYJ\\Desktop\\Curso ASP.NET\\SistemaInventarioV9\\SistemaInventarioV9\\SistemaInventarioV9.csproj": {}
   },
   "projects": {
-    "C:\\Users\\KunaiYJ\\Desktop\\Curso ASP.NET\\SistemaInventarioV9\\SistemaInventarioV9\\SistemaInventarioV9.csproj": {
+    "C:\\Users\\KunaiYJ\\Desktop\\Curso ASP.NET\\SistemaInventarioV9\\SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KunaiYJ\\Desktop\\Curso ASP.NET\\SistemaInventarioV9\\SistemaInventarioV9\\SistemaInventarioV9.csproj",
-        "projectName": "SistemaInventarioV9",
-        "projectPath": "C:\\Users\\KunaiYJ\\Desktop\\Curso ASP.NET\\SistemaInventarioV9\\SistemaInventarioV9\\SistemaInventarioV9.csproj",
+        "projectUniqueName": "C:\\Users\\KunaiYJ\\Desktop\\Curso ASP.NET\\SistemaInventarioV9\\SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj",
+        "projectName": "SistemaInventario.AccesoDatos",
+        "projectPath": "C:\\Users\\KunaiYJ\\Desktop\\Curso ASP.NET\\SistemaInventarioV9\\SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj",
         "packagesPath": "C:\\Users\\KunaiYJ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KunaiYJ\\Desktop\\Curso ASP.NET\\SistemaInventarioV9\\SistemaInventarioV9\\obj\\",
+        "outputPath": "C:\\Users\\KunaiYJ\\Desktop\\Curso ASP.NET\\SistemaInventarioV9\\SistemaInventario.AccesoDatos\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\KunaiYJ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\KunaiYJ\\Desktop\\Curso ASP.NET\\SistemaInventarioV9\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj": {
+                "projectPath": "C:\\Users\\KunaiYJ\\Desktop\\Curso ASP.NET\\SistemaInventarioV9\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj"
+              },
+              "C:\\Users\\KunaiYJ\\Desktop\\Curso ASP.NET\\SistemaInventarioV9\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj": {
+                "projectPath": "C:\\Users\\KunaiYJ\\Desktop\\Curso ASP.NET\\SistemaInventarioV9\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\KunaiYJ\\Desktop\\Curso ASP.NET\\SistemaInventarioV9\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\KunaiYJ\\Desktop\\Curso ASP.NET\\SistemaInventarioV9\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj",
+        "projectName": "SistemaInventario.Modelos",
+        "projectPath": "C:\\Users\\KunaiYJ\\Desktop\\Curso ASP.NET\\SistemaInventarioV9\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj",
+        "packagesPath": "C:\\Users\\KunaiYJ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\KunaiYJ\\Desktop\\Curso ASP.NET\\SistemaInventarioV9\\SistemaInventario.Modelos\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\KunaiYJ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\KunaiYJ\\Desktop\\Curso ASP.NET\\SistemaInventarioV9\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj": {
+                "projectPath": "C:\\Users\\KunaiYJ\\Desktop\\Curso ASP.NET\\SistemaInventarioV9\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\KunaiYJ\\Desktop\\Curso ASP.NET\\SistemaInventarioV9\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\KunaiYJ\\Desktop\\Curso ASP.NET\\SistemaInventarioV9\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj",
+        "projectName": "SistemaInventario.Utilidades",
+        "projectPath": "C:\\Users\\KunaiYJ\\Desktop\\Curso ASP.NET\\SistemaInventarioV9\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj",
+        "packagesPath": "C:\\Users\\KunaiYJ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\KunaiYJ\\Desktop\\Curso ASP.NET\\SistemaInventarioV9\\SistemaInventario.Utilidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +208,81 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\KunaiYJ\\Desktop\\Curso ASP.NET\\SistemaInventarioV9\\SistemaInventarioV9\\SistemaInventarioV9.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\KunaiYJ\\Desktop\\Curso ASP.NET\\SistemaInventarioV9\\SistemaInventarioV9\\SistemaInventarioV9.csproj",
+        "projectName": "SistemaInventarioV9",
+        "projectPath": "C:\\Users\\KunaiYJ\\Desktop\\Curso ASP.NET\\SistemaInventarioV9\\SistemaInventarioV9\\SistemaInventarioV9.csproj",
+        "packagesPath": "C:\\Users\\KunaiYJ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\KunaiYJ\\Desktop\\Curso ASP.NET\\SistemaInventarioV9\\SistemaInventarioV9\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\KunaiYJ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\KunaiYJ\\Desktop\\Curso ASP.NET\\SistemaInventarioV9\\SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj": {
+                "projectPath": "C:\\Users\\KunaiYJ\\Desktop\\Curso ASP.NET\\SistemaInventarioV9\\SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj"
+              },
+              "C:\\Users\\KunaiYJ\\Desktop\\Curso ASP.NET\\SistemaInventarioV9\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj": {
+                "projectPath": "C:\\Users\\KunaiYJ\\Desktop\\Curso ASP.NET\\SistemaInventarioV9\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj"
+              },
+              "C:\\Users\\KunaiYJ\\Desktop\\Curso ASP.NET\\SistemaInventarioV9\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj": {
+                "projectPath": "C:\\Users\\KunaiYJ\\Desktop\\Curso ASP.NET\\SistemaInventarioV9\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
@@ -62,6 +296,10 @@
               "target": "Package",
               "version": "[9.0.4, )"
             },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[9.0.4, )"
@@ -69,6 +307,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[9.0.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             }
           },
           "imports": [
