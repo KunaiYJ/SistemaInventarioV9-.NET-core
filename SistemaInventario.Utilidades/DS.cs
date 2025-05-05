@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace SistemaInventario.Utilidades
 {
-    internal static class DS
+    public static class DS
     {
+        public const string Exitosa = "Exitosa";
+        public const string Error = "Error";
     }
 }

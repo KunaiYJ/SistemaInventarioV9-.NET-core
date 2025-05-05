@@ -35,7 +35,7 @@ namespace SistemaInventario.AccesoDatos.Repositorio
         public async Task<IEnumerable<T>> ObtenerTodos(Expression<Func<T, bool>> filtro = null, Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null, string incluirPropiedades = null, bool isTracking = true)
         {
             IQueryable<T> query = dbSet;
-            if (filtro == null) 
+            if (filtro != null) 
             {
                 query = query.Where(filtro); // SELECT /* FROM WHERE...
             }
@@ -64,7 +64,7 @@ namespace SistemaInventario.AccesoDatos.Repositorio
         public async Task<T> ObtnerPrimero(Expression<Func<T, bool>> filtro = null, string incluirPropiedades = null, bool isTracking = true)
         {
             IQueryable<T> query = dbSet;
-            if (filtro == null)
+            if (filtro != null)
             {
                 query = query.Where(filtro); // SELECT /* FROM WHERE...
             }
