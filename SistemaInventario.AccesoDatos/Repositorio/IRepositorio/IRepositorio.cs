@@ -4,6 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
+using SistemaInventario.Modelos.Especificaciones;
 
 namespace SistemaInventario.AccesoDatos.Repositorio.IRepositorio
 {
@@ -13,6 +14,13 @@ namespace SistemaInventario.AccesoDatos.Repositorio.IRepositorio
         Task<T> Obtener(int d);
 
         Task<IEnumerable<T>> ObtenerTodos(
+            Expression<Func<T, bool>> filtro = null,
+            Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
+            string incluirPropiedades = null,
+            bool isTracking = true
+         );
+
+        PagedList<T> ObtenerTodosPaginado(Parametros parametros,
             Expression<Func<T, bool>> filtro = null,
             Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
             string incluirPropiedades = null,
