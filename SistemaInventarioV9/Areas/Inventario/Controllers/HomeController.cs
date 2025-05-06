@@ -1,5 +1,6 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using SistemaInventario.Modelos.ErrorViewModels;
 using SistemaInventario.Modelos.ViewModels;
 
 namespace SistemaInventarioV9.Areas.Inventario.Controllers
